@@ -9,8 +9,8 @@ function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
     let homeCounter = 0;
     let awayCounter = 0;
-    const [homeScore, setHomeScore] = useState(numHomeCounter);
-    const [awayScore, setAwayScore] = useState(numAwayCounter);
+    const [homeScore, setHomeScore] = useState(homeCounter);
+    const [awayScore, setAwayScore] = useState(awayCounter);
 
   return (
     <div className="container">
